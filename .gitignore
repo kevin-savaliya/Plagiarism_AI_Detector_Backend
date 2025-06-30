@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Uploads folder
+uploads/
+
+# Environment variables
+.env
+
+# Ignore models
+app/models/

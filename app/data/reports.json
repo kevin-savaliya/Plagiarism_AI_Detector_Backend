@@ -1,0 +1,806 @@
+[
+  {
+    "type": "ai_detection",
+    "text": "Human-Written Text :\n\n- Uses personal pronouns (I, we, my)\n- Contains emotional content\n- Has varied sentence structure\n- Uses informal language\n- Includes specific personal details\n- Has natural flow and conversational tone\n\n-------------------------------------\nI remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n\n---------------------------------------------------------------------------------------------\n\nAI-Generated Text :\n\n- Uses formal academic language\n- Contains complex vocabulary\n- Has consistent sentence structure\n- Uses technical terms\n- Maintains neutral tone\n- Has more structured flow\n\n-----------------------------------------\nThe increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n\n\n-------------------------------------------------------------------------------------------------\n\nText Similarity Analysis : \n\nArtificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n-------------------------------\n\nThe impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 68.7,
+      "is_ai_generated": true,
+      "confidence": 99.03774955135063,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 66.7,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 1,
+    "date": "2025-04-17T23:28:35.216508"
+  },
+  {
+    "type": "ai_detection",
+    "text": "The increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n",
+    "result": {
+      "ai_probability": 82.0,
+      "is_ai_generated": true,
+      "confidence": 91.33974596215562,
+      "message": "Likely AI-generated",
+      "details": {
+        "pattern_score": 100.0,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 2,
+    "date": "2025-04-17T23:28:54.688588"
+  },
+  {
+    "type": "ai_detection",
+    "text": "I remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n",
+    "result": {
+      "ai_probability": 36.0,
+      "is_ai_generated": false,
+      "confidence": 81.97224362268005,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 0.0,
+        "structure_score": 50.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 3,
+    "date": "2025-04-17T23:30:29.315596"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Project Structure for Distribution:\n\nbackend/\n\u251c\u2500\u2500 app/\n\u2502   \u251c\u2500\u2500 __init__.py\n\u2502   \u251c\u2500\u2500 main.py\n\u2502   \u251c\u2500\u2500 ai_detection.py\n\u2502   \u251c\u2500\u2500 similarity.py\n\u2502   \u2514\u2500\u2500 preprocessing.py\n\u2514\u2500\u2500 requirements.txt\n\nfrontend/\n\u251c\u2500\u2500 src/\n\u2502   \u251c\u2500\u2500 components/\n\u2502   \u251c\u2500\u2500 pages/\n\u2502   \u2514\u2500\u2500 App.js\n\u2514\u2500\u2500 package.json\n\nREADME.md ",
+    "result": {
+      "ai_probability": 50.0,
+      "is_ai_generated": false,
+      "confidence": 90.0,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 50.0,
+        "structure_score": 30.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 4,
+    "date": "2025-04-17T23:32:03.613635"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Slide 1 : Title\n\n------------------------------------------------------------------------------------------------\n\n\nSlide 2: Introduction\n\nAn intelligent web-based platform that detects AI-generated content and plagiarism using text similarity and linguistic analysis.\n\n- AI-powered text analysis system\n- Detects AI-generated content and text similarity\n- Modern web application with intuitive interface\n\n------------------------------------------------------------------------------------------------\n\nSlide 3: System Architecture\n\n= > Frontend\nReact.js - Axios (API calls)\nModern, responsive design - Material-UI\nInteractive charts and visualizations - Chart.js\nReal-time analysis feedback\n\n=> Backend\nFlask REST API\nPython-based analysis engine\nModular architecture\nSecure file handling\npandas \u2013 data analysis\nPyPDF2 \u2013 PDF parsing\n\n=> Model Integration\nTransformers like GPT2 / Roberta\nScikit-learn for traditional ML\nSpaCy for NLP preprocessing\n\n------------------------------------------------------------------------------------------------\n\nSlide 4: Core Features\n\n=> AI Content Detection\n\nIdentifies content likely generated by AI\nStyle, structure, and pattern analysis\n\n=> Plagiarism & Similarity Detection\n\nCompares text for duplication\nUses multiple similarity metrics\n\n=> Multi-format File Support\n\nPDF, DOCX, TXT support\nAutomatic secure text extraction\n\n------------------------------------------------------------------------------------------------\n\nSlide 5: How AI Detection Works\n\n- Text Preprocessing (Tokenization, cleaning)\n- Feature Extraction (sentence length, repetition, complexity)\n- Style & Structure Analysis using statistical models\n- AI Model Evaluation (Roberta / GPT2 fine-tuned for classification)\n- Confidence Score Calculation\n\nOutput:\nConfidence level of AI generation with detailed chart\n\n------------------------------------------------------------------------------------------------\n\nSlide 6: How Similarity Detection Works?\n\n=> Text-to-Text Comparison:\n\n- Text preprocessing\n- TF-IDF vector generation\n- Cosine similarity calculation\n\n=> Outputs:\n\n- Similarity percentage\n- Matching blocks\n- Plagiarism report with charts\n\n------------------------------------------------------------------------------------------------\n\nSlide 7: Python Models & Libraries Used\n\n=> SpaCy / NLTK\n- Tokenization, stopwords, part-of-speech tagging\n\n=> Transformers\n- GPT2 for AI-text detection\n- Pretrained models fine-tuned on human vs AI datasets\n\n=> Scikit-learn\n- TF-IDF for feature vectors\n\n=> pandas & numpy\n- Data manipulation, statistics\n\n=> matplotlib / seaborn / chart.js\n- Visualization of results\n\n------------------------------------------------------------------------------------------------\n\nSlide 8: Statistical Concepts Used\n\n=> TF-IDF (Term Frequency\u2013Inverse Document Frequency)\n- To evaluate how important a word is to a document\n\n=> Cosine Similarity\n- Measures similarity between two vectors\n\n=> Jaccard Similarity\n- Measures intersection over union of words\n\n=> Z-score & Normalization\n- To compare patterns with baseline AI/human writing styles\n\n------------------------------------------------------------------------------------------------\n\nSlide 9: Results & Analysis\n\n=> AI Detection\n\n- Probability scores\n- Confidence levels\n- Detailed breakdown\n- Visualization pie charts\n\n=> Plagiarism (Text Similarity) Detection\n\n- Similarity percentage (e.g. 76% matched)\n- Unique content\n- Comparative analysis with bar and pie charts\n\n------------------------------------------------------------------------------------------------\n\nSlide 10: Conclusion\n\n= > Key Takeaways\n- Effective AI detection\n- Accurate similarity analysis\n- User-friendly design\n- Scalable solution\n\n=> Impact\nAcademic integrity\nContent verification\nQuality assurance\nEducational tool\n\n------------------------------------------------------------------------------------------------\n\nSlide 11: Advantages\n\n=> Technical:\n- Accurate and fast processing\n- Scalable and modular architecture\n\n=> User-Friendly:\n- Simple UI\n- Rich data visualization\n- Secure file handling\n\n------------------------------------------------------------------------------------------------\n\nSlide 12 : Live Demonstration\n\n- AI detection process\n- Similarity analysis\n- File upload and processing\n- Live AI content detection\n- Results visualization\n\n------------------------------------------------------------------------------------------------\n\n\nSlide 12 : Thank You",
+    "result": {
+      "ai_probability": 73.8,
+      "is_ai_generated": true,
+      "confidence": 88.87038577680244,
+      "message": "Likely AI-generated",
+      "details": {
+        "pattern_score": 94.4,
+        "structure_score": 70.0,
+        "style_score": 50.0
+      }
+    },
+    "id": 5,
+    "date": "2025-04-17T23:32:13.174300"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Human-Written Text :\n\n- Uses personal pronouns (I, we, my)\n- Contains emotional content\n- Has varied sentence structure\n- Uses informal language\n- Includes specific personal details\n- Has natural flow and conversational tone\n\n-------------------------------------\nI remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n\n---------------------------------------------------------------------------------------------\n\nAI-Generated Text :\n\n- Uses formal academic language\n- Contains complex vocabulary\n- Has consistent sentence structure\n- Uses technical terms\n- Maintains neutral tone\n- Has more structured flow\n\n-----------------------------------------\nThe increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n\n\n-------------------------------------------------------------------------------------------------\n\nText Similarity Analysis : \n\nArtificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n-------------------------------\n\nThe impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 68.7,
+      "is_ai_generated": true,
+      "confidence": 99.03774955135063,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 66.7,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 6,
+    "date": "2025-04-17T23:32:22.883148"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Human-Written Text :\n\n- Uses personal pronouns (I, we, my)\n- Contains emotional content\n- Has varied sentence structure\n- Uses informal language\n- Includes specific personal details\n- Has natural flow and conversational tone\n\n-------------------------------------\nI remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n\n---------------------------------------------------------------------------------------------\n\nAI-Generated Text :\n\n- Uses formal academic language\n- Contains complex vocabulary\n- Has consistent sentence structure\n- Uses technical terms\n- Maintains neutral tone\n- Has more structured flow\n\n-----------------------------------------\nThe increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n\n\n-------------------------------------------------------------------------------------------------\n\nText Similarity Analysis : \n\nArtificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n-------------------------------\n\nThe impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 68.7,
+      "is_ai_generated": true,
+      "confidence": 99.03774955135063,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 66.7,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 7,
+    "date": "2025-04-17T23:32:36.700057"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Human-Written Text :\n\n- Uses personal pronouns (I, we, my)\n- Contains emotional content\n- Has varied sentence structure\n- Uses informal language\n- Includes specific personal details\n- Has natural flow and conversational tone\n\n-------------------------------------\nI remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n\n---------------------------------------------------------------------------------------------\n\nAI-Generated Text :\n\n- Uses formal academic language\n- Contains complex vocabulary\n- Has consistent sentence structure\n- Uses technical terms\n- Maintains neutral tone\n- Has more structured flow\n\n-----------------------------------------\nThe increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n\n\n-------------------------------------------------------------------------------------------------\n\nText Similarity Analysis : \n\nArtificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n-------------------------------\n\nThe impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 68.7,
+      "is_ai_generated": true,
+      "confidence": 99.03774955135063,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 66.7,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 8,
+    "date": "2025-04-17T23:45:02.931922"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Human-Written Text :\n\n- Uses personal pronouns (I, we, my)\n- Contains emotional content\n- Has varied sentence structure\n- Uses informal language\n- Includes specific personal details\n- Has natural flow and conversational tone\n\n-------------------------------------\nI remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n\n---------------------------------------------------------------------------------------------\n\nAI-Generated Text :\n\n- Uses formal academic language\n- Contains complex vocabulary\n- Has consistent sentence structure\n- Uses technical terms\n- Maintains neutral tone\n- Has more structured flow\n\n-----------------------------------------\nThe increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n\n\n-------------------------------------------------------------------------------------------------\n\nText Similarity Analysis : \n\nArtificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n-------------------------------\n\nThe impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 68.7,
+      "is_ai_generated": true,
+      "confidence": 99.03774955135063,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 66.7,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 9,
+    "date": "2025-04-17T23:45:27.372431"
+  },
+  {
+    "type": "ai_detection",
+    "text": "The increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n",
+    "result": {
+      "ai_probability": 82.0,
+      "is_ai_generated": true,
+      "confidence": 91.33974596215562,
+      "message": "Likely AI-generated",
+      "details": {
+        "pattern_score": 100.0,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 10,
+    "date": "2025-04-17T23:45:46.388893"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Human-Written Text :\n\n- Uses personal pronouns (I, we, my)\n- Contains emotional content\n- Has varied sentence structure\n- Uses informal language\n- Includes specific personal details\n- Has natural flow and conversational tone\n\n-------------------------------------\nI remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n\n---------------------------------------------------------------------------------------------\n\nAI-Generated Text :\n\n- Uses formal academic language\n- Contains complex vocabulary\n- Has consistent sentence structure\n- Uses technical terms\n- Maintains neutral tone\n- Has more structured flow\n\n-----------------------------------------\nThe increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n\n\n-------------------------------------------------------------------------------------------------\n\nText Similarity Analysis : \n\nArtificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n-------------------------------\n\nThe impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 68.7,
+      "is_ai_generated": true,
+      "confidence": 99.03774955135063,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 66.7,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 11,
+    "date": "2025-04-17T23:46:21.986686"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Human-Written Text :\n\n- Uses personal pronouns (I, we, my)\n- Contains emotional content\n- Has varied sentence structure\n- Uses informal language\n- Includes specific personal details\n- Has natural flow and conversational tone\n\n-------------------------------------\nI remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n\n---------------------------------------------------------------------------------------------\n\nAI-Generated Text :\n\n- Uses formal academic language\n- Contains complex vocabulary\n- Has consistent sentence structure\n- Uses technical terms\n- Maintains neutral tone\n- Has more structured flow\n\n-----------------------------------------\nThe increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n\n\n-------------------------------------------------------------------------------------------------\n\nText Similarity Analysis : \n\nArtificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n-------------------------------\n\nThe impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 68.7,
+      "is_ai_generated": true,
+      "confidence": 99.03774955135063,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 66.7,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 12,
+    "date": "2025-04-17T23:46:44.870300"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Error analyzing texts. Please try again.",
+    "result": {
+      "ai_probability": 50.0,
+      "is_ai_generated": false,
+      "confidence": 90.0,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 50.0,
+        "structure_score": 30.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 13,
+    "date": "2025-04-17T23:54:46.796720"
+  },
+  {
+    "type": "ai_detection",
+    "text": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 56.0,
+      "is_ai_generated": true,
+      "confidence": 94.22649730810375,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 50.0,
+        "structure_score": 50.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 14,
+    "date": "2025-04-17T23:55:06.978462"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "text2": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "cosine_similarity": 1.0,
+      "jaccard_similarity": 1.0,
+      "tfidf_similarity": 1.0,
+      "average_similarity": 1.0
+    },
+    "id": 15,
+    "date": "2025-04-17T23:59:08.307607"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "cosine_similarity": 0.38689628839518114,
+      "jaccard_similarity": 0.19318181818181818,
+      "tfidf_similarity": 0.959166304662544,
+      "average_similarity": 0.5130814704131811
+    },
+    "id": 16,
+    "date": "2025-04-17T23:59:20.950591"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Human-Written Text :\n\n- Uses personal pronouns (I, we, my)\n- Contains emotional content\n- Has varied sentence structure\n- Uses informal language\n- Includes specific personal details\n- Has natural flow and conversational tone\n\n-------------------------------------\nI remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n\n---------------------------------------------------------------------------------------------\n\nAI-Generated Text :\n\n- Uses formal academic language\n- Contains complex vocabulary\n- Has consistent sentence structure\n- Uses technical terms\n- Maintains neutral tone\n- Has more structured flow\n\n-----------------------------------------\nThe increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n\n\n-------------------------------------------------------------------------------------------------\n\nText Similarity Analysis : \n\nArtificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n-------------------------------\n\nThe impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 68.7,
+      "is_ai_generated": true,
+      "confidence": 99.03774955135063,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 66.7,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 17,
+    "date": "2025-04-18T00:00:09.412706"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "cosine_similarity": 0.38689628839518114,
+      "jaccard_similarity": 0.19318181818181818,
+      "tfidf_similarity": 0.959166304662544,
+      "average_similarity": 0.5130814704131811
+    },
+    "id": 18,
+    "date": "2025-04-18T00:09:30.525003"
+  },
+  {
+    "type": "ai_detection",
+    "text": "I remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n",
+    "result": {
+      "ai_probability": 36.0,
+      "is_ai_generated": false,
+      "confidence": 81.97224362268005,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 0.0,
+        "structure_score": 50.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 19,
+    "date": "2025-04-18T00:09:59.551193"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Kevin Savaliya",
+    "result": {
+      "ai_probability": 50.0,
+      "is_ai_generated": false,
+      "confidence": 90.0,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 50.0,
+        "structure_score": 30.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 20,
+    "date": "2025-04-18T00:16:26.832245"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Kevin Savaliya Bharatbhai",
+    "result": {
+      "ai_probability": 50.0,
+      "is_ai_generated": false,
+      "confidence": 90.0,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 50.0,
+        "structure_score": 30.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 21,
+    "date": "2025-04-18T00:16:37.056578"
+  },
+  {
+    "type": "ai_detection",
+    "text": "I remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n",
+    "result": {
+      "ai_probability": 36.0,
+      "is_ai_generated": false,
+      "confidence": 81.97224362268005,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 0.0,
+        "structure_score": 50.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 22,
+    "date": "2025-04-18T00:26:30.420062"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Human-Written Text :\n\n- Uses personal pronouns (I, we, my)\n- Contains emotional content\n- Has varied sentence structure\n- Uses informal language\n- Includes specific personal details\n- Has natural flow and conversational tone\n\n-------------------------------------\nI remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n\n---------------------------------------------------------------------------------------------\n\nAI-Generated Text :\n\n- Uses formal academic language\n- Contains complex vocabulary\n- Has consistent sentence structure\n- Uses technical terms\n- Maintains neutral tone\n- Has more structured flow\n\n-----------------------------------------\nThe increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n\n\n-------------------------------------------------------------------------------------------------\n\nText Similarity Analysis : \n\nArtificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n-------------------------------\n\nThe impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 68.7,
+      "is_ai_generated": true,
+      "confidence": 99.03774955135063,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 66.7,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 23,
+    "date": "2025-04-18T12:41:32.968619"
+  },
+  {
+    "type": "ai_detection",
+    "text": "I remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n",
+    "result": {
+      "ai_probability": 36.0,
+      "is_ai_generated": false,
+      "confidence": 81.97224362268005,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 0.0,
+        "structure_score": 50.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 24,
+    "date": "2025-04-18T12:41:55.501587"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "cosine_similarity": 0.38689628839518114,
+      "jaccard_similarity": 0.19318181818181818,
+      "tfidf_similarity": 0.9591663046625439,
+      "average_similarity": 0.5130814704131811
+    },
+    "id": 25,
+    "date": "2025-04-18T12:42:42.601697"
+  },
+  {
+    "type": "ai_detection",
+    "text": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 56.0,
+      "is_ai_generated": true,
+      "confidence": 94.22649730810375,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 50.0,
+        "structure_score": 50.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 26,
+    "date": "2025-04-18T12:46:09.326518"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Slide 1 : Title\n\n------------------------------------------------------------------------------------------------\n\n\nSlide 2: Introduction\n\nAn intelligent web-based platform that detects AI-generated content and plagiarism using text similarity and linguistic analysis.\n\n- AI-powered text analysis system\n- Detects AI-generated content and text similarity\n- Modern web application with intuitive interface\n\n------------------------------------------------------------------------------------------------\n\nSlide 3: System Architecture\n\n= > Frontend\nReact.js - Axios (API calls)\nModern, responsive design - Material-UI\nInteractive charts and visualizations - Chart.js\nReal-time analysis feedback\n\n=> Backend\nFlask REST API\nPython-based analysis engine\nModular architecture\nSecure file handling\npandas \u2013 data analysis\nPyPDF2 \u2013 PDF parsing\n\n=> Model Integration\nTransformers like GPT2 / Roberta\nScikit-learn for traditional ML\nSpaCy for NLP preprocessing\n\n------------------------------------------------------------------------------------------------\n\nSlide 4: Core Features\n\n=> AI Content Detection\n\nIdentifies content likely generated by AI\nStyle, structure, and pattern analysis\n\n=> Plagiarism & Similarity Detection\n\nCompares text for duplication\nUses multiple similarity metrics\n\n=> Multi-format File Support\n\nPDF, DOCX, TXT support\nAutomatic secure text extraction\n\n------------------------------------------------------------------------------------------------\n\nSlide 5: How AI Detection Works\n\n- Text Preprocessing (Tokenization, cleaning)\n- Feature Extraction (sentence length, repetition, complexity)\n- Style & Structure Analysis using statistical models\n- AI Model Evaluation (Roberta / GPT2 fine-tuned for classification)\n- Confidence Score Calculation\n\nOutput:\nConfidence level of AI generation with detailed chart\n\n------------------------------------------------------------------------------------------------\n\nSlide 6: How Similarity Detection Works?\n\n=> Text-to-Text Comparison:\n\n- Text preprocessing\n- TF-IDF vector generation\n- Cosine similarity calculation\n\n=> Outputs:\n\n- Similarity percentage\n- Matching blocks\n- Plagiarism report with charts\n\n------------------------------------------------------------------------------------------------\n\nSlide 7: Python Models & Libraries Used\n\n=> SpaCy / NLTK\n- Tokenization, stopwords, part-of-speech tagging\n\n=> Transformers\n- GPT2 for AI-text detection\n- Pretrained models fine-tuned on human vs AI datasets\n\n=> Scikit-learn\n- TF-IDF for feature vectors\n\n=> pandas & numpy\n- Data manipulation, statistics\n\n=> matplotlib / seaborn / chart.js\n- Visualization of results\n\n------------------------------------------------------------------------------------------------\n\nSlide 8: Statistical Concepts Used\n\n=> TF-IDF (Term Frequency\u2013Inverse Document Frequency)\n- To evaluate how important a word is to a document\n\n=> Cosine Similarity\n- Measures similarity between two vectors\n\n=> Jaccard Similarity\n- Measures intersection over union of words\n\n=> Z-score & Normalization\n- To compare patterns with baseline AI/human writing styles\n\n------------------------------------------------------------------------------------------------\n\nSlide 9: Results & Analysis\n\n=> AI Detection\n\n- Probability scores\n- Confidence levels\n- Detailed breakdown\n- Visualization pie charts\n\n=> Plagiarism (Text Similarity) Detection\n\n- Similarity percentage (e.g. 76% matched)\n- Unique content\n- Comparative analysis with bar and pie charts\n\n------------------------------------------------------------------------------------------------\n\nSlide 10: Conclusion\n\n= > Key Takeaways\n- Effective AI detection\n- Accurate similarity analysis\n- User-friendly design\n- Scalable solution\n\n=> Impact\nAcademic integrity\nContent verification\nQuality assurance\nEducational tool\n\n------------------------------------------------------------------------------------------------\n\nSlide 11: Advantages\n\n=> Technical:\n- Accurate and fast processing\n- Scalable and modular architecture\n\n=> User-Friendly:\n- Simple UI\n- Rich data visualization\n- Secure file handling\n\n------------------------------------------------------------------------------------------------\n\nSlide 12 : Live Demonstration\n\n- AI detection process\n- Similarity analysis\n- File upload and processing\n- Live AI content detection\n- Results visualization\n\n------------------------------------------------------------------------------------------------\n\n\nSlide 12 : Thank You",
+    "result": {
+      "ai_probability": 73.8,
+      "is_ai_generated": true,
+      "confidence": 88.87038577680244,
+      "message": "Likely AI-generated",
+      "details": {
+        "pattern_score": 94.4,
+        "structure_score": 70.0,
+        "style_score": 50.0
+      }
+    },
+    "id": 27,
+    "date": "2025-04-18T12:54:21.373813"
+  },
+  {
+    "type": "ai_detection",
+    "text": " \n  Page | 1 \n  \n \n \n \n \nPROJECT REPORT  \nON \nSplit Expense Management  \n \n \n \nAS A PARTIAL REQUIREMENT FOR THE DEGREE  \nOF \nBACHELOR OF COMPUTER APPLICATION  \n(B.C.A.)  \n \n \n \n: SUBMITTED BY :      : GUIDED BY :  \n618  5543  Savaliya Kevin Bharatbhai  \n624  5462  Panchani Meet Pareshbhai  \n657  5332  Kanani Drashti Rajeshbhai  \n631  \n507  5546  \n5213  Savani Dhruvi Mukeshbhai  \nDonda Janvi Dharmeshbhai  \n \n \nProf. Vishal M. Pandya  \n\n \n  Page | 2 \n  \n \n \n \n \n  \n\n \n  Page | 3 \n  \nACKNOWLEDGEMENT  \n \n \no I am highly indebted to Prof. Vishal M. Pandya  for their guidance and \nconstant supervision as well as for providing necessary information \nregarding the project & also for their support in completing the \nproject.  \n \no I would like to express my gratitude towards  my parents & member of \n\u2018Split Expense\u2019  for their kind co -operation and encouragement which \nhelp me in completion of this project.  \n \no I would like to express my special gratitude and thanks to industry \npersons for giving me such attention and time.  \n \no My thanks and appreciations also go to my colleague in developing the \nproject and people who have willingly helped me out with their \nabilities.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  Page | 4 \n INDEX  \n \n \nChapter  Page No.  \n1. Introduction                   \n1.1 College Profile  \n1.2 Project description                 \n1.3 Project Profile  \n1.4 Project Module  \n2. Environment Description  \n2.1 Hardware and Software Requirements  \n2.2 Technologies Used  \n3.  System Analysis and Planning  \n3.1 Existing System and its Drawbacks  \n3.2 Feasibility Study  \n3.3 Requirement Gathering and Analysis  \n4. Proposed System  \n4.1 Scope  \n4.2 Project modules  \n4.3        Module Wise Objectives  \n4.4 Expected Advantages  \n5. Detail Planning  \n5.1 Data Flow Diagram  \n5.2 Process Specification  \n5.3 Data Dictionary  \n5.4 Entity -Relationship Diagram  \n6. System Design  \n6.1 Database Design  \n6.2 Directory Structure  \n6.3 Input Layouts  \n7. System Testing  \n8. Limitations and Future Scope of Enhancements  \n References   \n5-6 \n7 \n8 \n9 \n \n10 \n11-18 \n \n19-21 \n22-23 \n24-25 \n \n26 \n27 \n28 \n29-30 \n \n31-35 \n36-38 \n39-40 \n41-42 \n \n43-47 \n48-53 \n54-74 \n75-79 \n80-83 \n \n \n  Page | 5 \n 1 \nIntroduction  \n \n \n1.1 College Profile  \n \nProf. V. B. Shah Institute of Management, R. V. Patel College of Commerce (English \nMedium),  V. L. Shah College of Commerce (Gujarati Medium) &  Sutex Bank College of \nComputer Applications  & Science  are Self - Financed colleges affiliated to the Veer \nNarmad South Gujarat University, Surat.  Prof. V. B. Shah Institute was started in the year \n1998 with a view to churn out management  professionals. A progressive academic record \nhas been maintained in this regard. The R. V. Patel  College of Commerce which was started \nin the year 2001 offers the B.Com. degree programme in  English Medium whereas the V. \nL. Shah college of Commerce started in the year 2006 offers the  B.Com. degree programme \nin Gujarati Medium.  Sutex Bank College of Computer Applications &  Science  started \nin the year 2000 offers the B.C.A. degree programme, with the onset of the 21st century,  \nthere has been tremendous advancement in science and technology.   \nThe entire academic year is replete with academic, extra & co -curricular activities, \nsporting  events, guest lectures, Industrial Visit, Educational tour, seminars and \nworkshops. A significant  goodwill has been created by the institute among its \nstakeholders. The teaching - learning process is  totally student centered; thereby \ninteractive and experiential learning . \n  \n \n \n \n \n \n \n  Page | 6 \n  \n \n \n \n \n \n \n \n \n \n \n \nThe institute is proud to have a qualified, competent and an industrious staff. They assist \nthe students in unleashing their talents and exhibiting their skills. The perspective \ninstitutional plan is  collectively chalked out by the I/c Principal, members of the \nmanaging trust (Jivan  Jyot Trust, Amroli),  the faculty members as well as the \nadministrative staff. Industrial visits and practical tasks help the  students a great deal in \nsupplementing their learning. Students are also given ample of scope to sharpen  their \nentrepreneurial skills. The institute takes pride in stating that it focuses on the optimal  \nuse of  resources available and takes all the measures for quality enhancement and quality \nsustenance.  \n  \n \n \n \n \n \n \n\n \n  Page | 7 \n 1.2  Project Description  \n                                          \n                            The goal of the \" Split  Expense  Management \" application is to facilitate \nseamless management of expenses within groups, providing users with a comprehensive \nplatform to organize and track shared expenses efficiently. By offering various features \nsuch as group creation, expense splitting, settlement, and payment integration, the app \naims to simplify t he process of managing group finances and promoting transparency \namong members.  \n                            The app allows users to create groups effortlessly, enabling them to add \nmembers from their contacts and customize group details such as name, profile picture, \nand estimated budget. This functionality streamlines the setup proce ss, ensuring that \nusers can quickly establish a dedicated space for managing shared expenses with their \nchosen group of individuals.  \n                            Within each group, members can engage in real -time communication \nthrough a dedicated chat interface. This feature fosters collaboration and enables users \nto discuss expenses, coordinate plans, and share important updates seamles sly. By \ncentralizing communication within the app, users can easily stay informed and coordinate \neffectively with their group members.  \n                                Expense management is a key component of the app, empowering users \nto add expenses directly within the group chat. When adding an expense, users can \nprovide detailed information such as the expense amount, description, payer , and date. \nAdditionally, the app offers multiple options for splitting expenses, including equally, by \namount, by percentage, and share -wise, allowing users to distribute costs fairly based on \ntheir preferences.  \n                                The app provides users with comprehensive visibility into their group's \nexpenses, allowing them to track spending, view detailed breakdowns, and monitor \nindividual contributions. By offering transparent expense tracking feat ures, the app \npromotes accountability and helps users stay informed about their financial obligations \nwithin the group.  \n                                To streamline the expense settlement process, the app calculates each \nuser's outstanding balance and facilitates the settlement of debts within the group. Users \ncan easily settle their dues, ensuring that all expenses are ac counted for and resolved \npromptly. This functionality eliminates the need for manual calculations and promotes \nhassle -free expense management.  \n                                Integration with payment gateways enables users to make secure \npayments to settle their debts conveniently. By supporting popular payment methods and \nensuring secure transaction processing, the app provides users with a reli able platform \nfor managing financial transactions within their groups. This functionality enhances user \nconvenience and promotes efficient expense settlement.  \n \n \n  Page | 8 \n  \n1.3  Project Profile  \n \n \n \n \n \n \n \n \n \n Project Title  : Split Expense Management  \nProject Type  : Mobile Application  \nFront End  : Flutter Framework  \nBack End  : Firebase Database  \nDatabase :  Cloud Firestore, Firebase Storage  \nDevelopment Tools :  Android Studio, VS Code  \nInternal Guide :  Dr. Vishal M. pandya  \nSubmitted To :  Sutex Bank College Of Computer Application and \nScience.  \nDocumentation Tool :  Microsoft Word  \nDeveloped By :  Savaliya Kevin B.  \nPanchani Meet P .  \nKanani Drashti R.  \nSavani Dhruvi M.  \nDonda Janvi D.  \n \n  Page | 9 \n 1.4  Project Modules  \n \na ] Authentication Module:  \n\u2022 Responsible for user registration, login, and authentication using email or social \nmedia accounts.  \n \nb ] Group Management Module:  \n\u2022 Allows users to create groups, add members, and manage group details such as \nname, profile picture, and estimated budget.  \n \nc ] Group Chat Module:  \n\u2022 Provides a platform for real -time communication among group members, \nfacilitating discussions, sharing updates, and coordinating plans.  \n \nd ] Expense Management Module:  \n\u2022 Enables users to add expenses within the group chat, specifying details such as \namount, description, payer, and date.  \n\u2022 Offers various methods for splitting expenses among group members, including \nequally, by amount, by percentage, and share -wise.  \n \ne ] Split Expense Tracking Module:  \n\u2022 Allows users to track group expenses, view detailed breakdowns, and monitor \nindividual contributions, promoting transparency and accountability.  \n \nf ] Expense Settlement Module:  \n\u2022 Facilitates the settlement of expenses within the group, calculating each user's \nbalance and providing options for settling dues.  \n \ng ] Payment Integration Module:  \n\u2022 Integrates with payment gateways to enable users to make secure payments for \nsettling their expenses conveniently.  \n \n  Page | 10 \n 2 \nEnvironment Description  \n \n2.1  Hardware And Software Requirements  \n \n\u27a2  Operating System :  \n\u2022 Windows : 7 or higher  \n\u2022 MAC : OS X v10.7 or higher  \n\u2022 Linux : ubuntu  \n \n\u27a2 Hardware Specification :  \n\u2022 Processor : Minimum 1GHz, recommended 2GHz or more  \n\u2022 Ethernet connection (LAN) or wireless adapter (Wi -Fi) \n\u2022 Hard drive : Minimum 32 GB, recommended 64GB or more  \n\u2022 Memory (RAM) : Minimum 1 GB, recommended 4GB or more  \n\u2022 Keyboard & mouse  \n \n\u27a2 Soft ware Specification :  \n\u2022 Android  Studio IDE  \n\u2022 Visual Studio Code IDE  \n\u2022 Recommended Browsers :  \no Google Chrome  \no Microsoft Edge  \no Safari  \no Internet Explorer  \no Firefox  \n \n \n  Page | 11 \n 2.2  Technologies Used  \n \n\u2756 Frontend Technology :  \n \n1 ) Flutter Framework :  \n \nFlutter is Google\u2019s portable UI toolkit for crafting beautiful, natively compiled \napplications for mobile, web, and desktop from a single codebase. Flutter works with \nexisting code, is used by developers and organizations around the world, and is free \nand open source.  \n \n \n \n \n \n \n \n \n \n \n \n \n\u2022 Advantages of Flutter :  \n \n \no Dart Programming Language :  \n \nFlutter uses Dart as its primary programming language. Dart is an object  \noriented, class -based language with C -style syntax.  \nDart offers features such as strong typing, asynchronous programming, and a \nreactive programming style, making it well -suited for building modern, reactive \nuser interfaces.  \n \n \n\n \n  Page | 12 \n  \n \no Widget -based Framework:  \n \nFlutter uses a widget -based approach to building user interfaces. \nEverything in Flutter is a widget, including structural elements like buttons and \ncontainers, layout elements like rows and columns, and even entire screens.  \nWidgets are immutable and declarative, meaning that instead of changing \nthe properties of existing widgets, you create new widgets to reflect changes in the \nUI. \n  \no Hot Reload:  \n \nOne of the most powerful features of Flutter is its hot reload capability. Hot \nreload allows developers to make changes to their code and see the results \ninstantly reflected in the running app without losing the app state.  \nThis rapid iteration cycle significantly speeds up the development process \nand enables developers to experiment and iterate on UI designs quickly.  \n  \no Cross -platform Development:  \n \nFlutter enables cross -platform development, allowing developers to write \ncode once and deploy it to multiple platforms, including iOS, Android, web, and \ndesktop (Windows, macOS, Linux).  \nBy sharing a single codebase, developers can save time and effort in \nmaintaining separate codebases for different platforms.  \n \no Performance:  \n \nFlutter provides high -performance rendering using its own graphics engine \ncalled Skia. Skia is a mature, cross -platform 2D graphics library used by various \nprojects, including Google Chrome and Android.  \nFlutter's architecture allows it to achieve consistent 60 frames per second \n(fps) performance, resulting in smooth and fluid animations and interactions.  \n \no Customization and Flexibility:  \n \nFlutter offers extensive customization options, allowing developers to create \nhighly polished and visually stunning user interfaces.  \n \n  Page | 13 \n Developers can customize every aspect of their app's UI, including animations, \ntransitions, and gestures, using Flutter's rich set of built -in widgets and APIs.  \n\u2022  Features  of Flutter :  \no Easy connection of back -end and asynchronization.  \no Fast and responsive layout.  \no Superior execution application  \no Runs same UI for numerous stages.  \no Colossal gadget list.  \no Delightful and liquid UIs.  \no Quick turn of events.  \no Present day and receptive structure.  \n \nSince the launch of Flutter in May 2017, it has resolved many of the existing \nproblems in the app development industry. Flutter is a powerful technology, or we can \nsay a tool backed by Dart language packed with a powerful mobile framework that can be \nused in both iOS and Android applications. Flutter is often used with DART , which is an \nobject -oriented programming language by Google. The flutter development tools come \nwith a graphics library and material design, and the Cupertino design allows faster \noperat ions of the app and also gives the app a stunning look, irrespective of its operating \nplatform! The biggest advantage of flutter is that it can be used to create cross -platform \napps. Using flutter, one can create iOS apps, Android apps, Websites, and much cross -\nplatform software in just one go, there is no need to write code for different platforms.  \n1. iOS Apps:  \nThese apps are made for Apple devices and wear. iOS apps are made using the \nSwift language. The iOS apps have an extension of .ipa.  \n \n2. Android Apps:  \nThese apps are made for android devices and wear. Android apps are made using \nJava and Kotlin, with an extension of .apk. Many app developers who had to work in a \ncross -platform work environment, and are responsible for the development of both \nandroid and iOS apps, found it a difficult and lengthy process to develop apps for both \nplatforms. The major problems encountered by companies and developers were:  \nNo Cross -Platform Dependency: iOS and Android apps work very differently \ninternally, so the developers had to redesign and reconfigure the same content for \nindividual platforms.  \nTime Constraints: Making a professional app, from coding to designing, requires a \nlot of time. Companies usually set a time limit by which the app should be ready to be \nlaunched into the market. Those developers who had to work on both these platforms \noften found time limit issues, and the efficiency and quality of work degraded.  \n \n  Page | 14 \n More Employees: This problem was encountered by companies. Since they have to \ndevelop an app for both platforms, a greater number of app developers knowing about \nthe individual platform had to be hired.  \n \n\u2756 Back end Technology :  \n \n1 ) Firebase :  \n \nFirebase is a comprehensive mobile and web development platform provided \nby Google, offering a wide range of tools and services to help developers build \nhigh -quality apps, grow their user base, and earn revenue. Firebase provides a \nunified platform for backend services, analytics, authentication, cloud messagi ng, \nremote configuration, and more, allowing developers to focus on building great \nuser experiences without worrying about managing infrastructure or scaling their \nbackend.  \nFirebase offers a suite of backend services, including Realtime Database, Cloud \nFirestore, Cloud Functions, Authentication, Cloud Storage, and Hosting. These \nservices provide developers with scalable and reliable infrastructure for storing \ndata, managing u ser authentication, and executing server -side logic.  \n \n \n \n \n \n \n \n \n \n \n\u2022  Features  of F irebase  : \no Backend Services:  \n \nFirebase offers a suite of backend services, including Realtime Database, \nCloud Firestore, Cloud Functions, Authentication, Cloud Storage, and Hosting. \nThese services provide developers with scalable and reliable infrastructure for \nstoring data, managing user authentication, and executing server -side logic.  \n \n \n\n \n  Page | 15 \n  \n \no Analytics:  \n \nFirebase Analytics provides insights into user behavior and app \nperformance, allowing developers to understand how users interact with their \napp, track user engagement, and measure key metrics such as retention, \nconversion, and revenue.  \n \no Authentication:  \n \nFirebase Authentication offers easy -to-use authentication solutions, \nincluding email/password authentication, social authentication (using providers \nlike Google, Facebook, Twitter), phone number authentication, and anonymous \nauthentication. It allows devel opers to securely authenticate users and manage \nuser identities across platforms.  \n \no Cloud Messaging:  \n \nFirebase Cloud Messaging (FCM) enables developers to send targeted \nmessages and notifications to users across platforms, including Android, iOS, and \nweb. It supports various message types, including notifications, data messages, \nand topic -based messaging, helping developers engage and r e-engage users \neffectively.  \n \no Remote Configuration:  \n \nFirebase Remote Config allows developers to remotely configure app \nsettings, feature flags, and parameters without requiring app updates. It enables \ndynamic content personalization, A/B testing, and staged rollouts, empowering \ndevelopers to optimize app ex periences based on user feedback and behavior.  \n \no Cloud Storage:  \n \nFirebase Cloud Storage provides secure and scalable cloud storage for \nstoring user -generated content such as images, videos, and files. It offers powerful \nstorage capabilities, including multi -region replication, access control, and \nintegration with Firebase Authentication.  \n \n \n  Page | 16 \n  \n \n \n \n \n \n \n \n \n \n \n\u2756 Cloud Firestore Database :  \n \n Cloud Firestore is a flexible, scalable database for mobile, \nweb, and server development from Firebase and Google Cloud. Like Firebase \nRealtime Database, it keeps your data in sync across client apps through realtime \nlisteners and offers offline support fo r mobile and web so you can build responsive \napps that work regardless of network latency or Internet connectivity. Cloud \nFirestore also offers seamless integration with other Firebase and Google Cloud \nproducts, including Cloud Functions.  \n  \n Cloud Firestore is newer, but it is not replacing the Firebase \nReal -time Database. Cloud Firestore is a flexible as well as scalable NoSQL cloud \ndatabase. It is used to store and sync data for client and server -side development. \nIt is used for mobile, web, and server development from Google Cloud Platform \nand Firebase. Like the  Firebase Real -time Database, it keeps syncing our data via \nreal-time listeners to the client app. It provides offline support for mobile and web \nso we can create responsive apps that work regardless of network latency or \nInternet connectivity.  Cloud Fires tore also provides seamless integration with \nGoogle Cloud Platform products and other Firebase, including cloud functions.  \n \n After Cloud Firestore's NoSQL data model, we can store data \nin documents that have field mappings for values. The documents are stored in a \ncontainer called collections. These containers are used to organize our data and \ncreate queries. There are different data types, from simple string and numbers to \ncomplex nested objects, supported by documents. We can also create sub-\ncollection within a document and create a hierarchical data structure that scales \nto the growth of our database. The Firestore data model supports whatever data \nstructure works best for our app.  \n \n\n \n  Page | 17 \n  \n\u2756 Payment Gateway Integration  : \n \n  \n1 ) Razorpay Integration in Flutter :  \n \n Razorpay is a leading payment gateway provider in India, \noffering a secure, reliable, and feature -rich platform for processing online \npayments. It enables businesses to accept payments seamlessly across multiple \nchannels, including websites, mobile apps, a nd more.  \n \n \n \n \n \n \n\u2022  Payment Methods  : \n \no Credit and Debit Cards  : \n \nCustomers can make payments using their credit or debit cards issued by \nVisa, Mastercard, Maestro, American Express, and other major card networks. \nRazorpay supports both domestic and international card payments.  \n \no Net Banking :  \n \nRazorpay supports payments via net banking, allowing customers to use \ntheir bank accounts to make online payments directly from their bank's website \nor mobile app. It offers integration with numerous banks across India for seamless \nnet banking payments.  \n \no Unified Payments Interface (UPI):  \n \nUPI is a popular payment method in India that allows users to transfer \nmoney between bank accounts instantly using their mobile phones. Razorpay \nsupports UPI payments, enabling customers to make payments using UPI apps \nsuch as Google Pay, PhonePe, Paytm, B HIM, and others.  \n\n \n  Page | 18 \n  \no Wallets :  \n \nRazorpay supports payments through various digital wallets, providing \ncustomers with the convenience of making quick and secure payments using their \nwallet balances. Supported wallets include Paytm, PhonePe, Google Pay, \nFreeCharge, Mobikwik, and others.  \n \no EMI Options:  \n \nRazorpay offers EMI (Equated Monthly Installments) options for customers \nwho wish to pay for their purchases in installments over time. Customers can \nchoose from a range of EMI plans offered by their banks and financial institutions \nat the time of checkout . \n \no International Payments:  \n \nRazorpay supports international payments, allowing businesses to accept \npayments from customers located outside India. Customers can make payments \nusing their international credit or debit cards, and transactions are processed in \nmultiple currencies.  \n \no QR Code Payments:  \n \nRazorpay offers QR code -based payment solutions, allowing businesses to \ngenerate QR codes that customers can scan using their mobile banking apps or UPI \napps to make payments quickly and securely.  \n \n \n \n \n \n \n \n \n  Page | 19 \n 3 \nSystem Analysis And planning  \n \n3.1  Existing System And Its Drawbacks  \n \n\u2756 Existing Systems  : \n \n Splitwise :  \n \n                       Splitwise is a popular expense -sharing application that simplifies the \nprocess of splitting bills and expenses among groups of friends, roommates, or \ncolleagues. It offers a user -friendly platform with features for creating groups, \nadding expenses, splitti ng bills, tracking balances, and settling debts. Splitwise is \navailable on web and mobile platforms, with apps for both iOS and Android \ndevices.  \n \nKey Features:  \n \no Group Creation:  \n \nUsers can create groups for various purposes, such as trips, rent sharing, or \nhousehold expenses.  \n \no Expense Management:  \n \nUsers can add expenses to the group, specifying details such as amount, \ndescription, and payer.  \n \no Expense Splitting:  \n \nSplitwise offers various methods for splitting expenses, including equally, by \nshares, by percentage, and custom amounts.  \n \n \n  Page | 20 \n o Real -time Balances:  \n \nThe app provides real -time updates on balances and settlements, allowing users \nto track their contributions and debts accurately.  \n \no Settlements:  \n \nSplitwise facilitates settlements between group members, enabling users to \nrecord payments and mark debts as settled.  \n \no Notifications:  \n \nUsers receive notifications for new expenses, reminders for pending settlements, \nand updates on group activity.  \n \n \n\u2756 Drawbacks of Splitwise : \n \no Limited Payment Options  : \n \nSplitwise primarily focuses on expense tracking and splitting, but it does \nnot offer built -in payment functionality. Users need to settle debts manually \noutside the app, which can be inconvenient, especially for large groups or frequent \nexpenses.  \n \no Dependency on Manual Settlements  : \n \nSplitwise relies on manual settlements between users, requiring them to \ntransfer funds independently using external payment methods. This can lead to \ndelays, discrepancies, or misunderstandings during the settlement process, \nparticularly if users forget to  mark debts as settled or fail to communicate \neffectively.  \n \no Lack of Integration with Payment Gateways :  \n \nSplitwise lacks integration with payment gateways or financial platforms, \nmaking it challenging for users to make direct payments or transfers within the \napp. Users may need to rely on third -party services or traditional payment \nmethods to settle debts, adding complexity to the process.  \n \n \n  Page | 21 \n o Limited Platform Support:  \n \nWhile Splitwise offers mobile apps for iOS and Android devices, it does not \nprovide native desktop or web browser support. Users may prefer accessing \nSplitwise from a web browser for certain tasks or managing expenses on larger \nscreens, which is not curren tly supported by the platform.  \n \no Limited Export and Reporting Options:  \n \nSplitwise provides basic export and reporting options for generating \nexpense reports or sharing data with group members. However, users may find \nthese options limited in terms of customization, formatting, or data analysis \ncapabilities, especially for adva nced reporting needs or business use cases.  \n \no Dependency on Internet Connectivity:  \n \nLike many cloud -based applications, Splitwise relies on internet \nconnectivity for data synchronization, updates, and notifications. Lack of internet \naccess or poor network connectivity can disrupt users' ability to access or update \nexpense information, particularly in offline or remote environments.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  Page | 22 \n  \n3.2  Feasibility Study  \n \no Technical Feasibility  : \n \n\u27a2 Assessment of Technology Stack:  \nEvaluate the suitability of Flutter framework for cross -platform \ndevelopment, as well as the compatibility of chosen technologies such as \nFirebase for backend services and Razorpay for payment integration.  \n \n\u27a2 Availability of Resources:  \nDetermine if the necessary technical expertise, development tools, \nand infrastructure are readily available or can be acquired within the \nproject timeline and budget.  \n \n\u27a2 Scalability and Performance  : \nConsider whether the chosen technologies can scale to \naccommodate increasing user traffic and data volume without \ncompromising performance.  \n \no Market Feasibility  : \n \n\u27a2 Market Analysis  : \nConduct market research to understand the demand for split \nexpense applications, identify target demographics, and analyze existing \ncompetitors in the market.  \n \n\u27a2 User Needs and Preferences:  \nDetermine the key features and functionalities that users expect \nfrom a split expense application, such as expense tracking, group \nmanagement, payment integration, and collaboration tools.  \n \n\u27a2 Market Trends and Opportunities:  \nIdentify emerging trends, market gaps, and potential opportunities \nfor innovation within the split expense application space.  \n \no Financial Feasibility  : \n \n\u27a2 Cost Estimation:  \n \n  Page | 23 \n Estimate the initial investment required to develop the split expense \napplication, including development costs, licensing fees, infrastructure \nexpenses, and marketing expenses.  \n \n\u27a2 Revenue Model:  \nDefine the revenue model for the application, such as subscription \nfees, transaction fees, freemium models, or monetization through ads or \npremium features.  \n \n\u27a2 Profitability Analysis:  \nEvaluate the projected revenues and expenses to determine the \nprofitability of the split expense application over time and assess the return \non investment (ROI).  \n \no Operational Feasibility  : \n \n\u27a2 Resource Allocation:  \nAssess the availability of human resources, time, and budget for \ndeveloping, launching, and maintaining the split expense application.  \n \n\u27a2 Operational Processes:  \nDefine the operational processes and workflows involved in \nmanaging the application, such as user onboarding, customer support, data \nmanagement, and security measures.  \n \n\u27a2 Legal and Compliance Considerations:  \nEnsure compliance with relevant laws and regulations governing \ndata privacy, payment processing, and financial transactions, as well as \nadherence to industry standards and best practices.  \n \no Risk Analysis  : \n \n\u27a2 Identification of Risks:  \nIdentify potential risks and challenges that could impact the \nsuccess of the split expense application, such as technical issues, market \ncompetition, regulatory changes, or financial constraints.  \n \n\u27a2 Risk Mitigation Strategies:  \nDevelop strategies to mitigate identified risks, such as contingency \nplans, risk transfer mechanisms, or alternative approaches to address \npotential obstacles.  \n \n \n  Page | 24 \n  \n3.3  Requirement Gathering And Analysis  \n \no Interviews  : \n \nWe conducted interviews with potential users, including individuals \ninvolved in group expenses such as roommates, friends, colleagues, and travelers. \nThrough these interviews, we gathered insights into their pain points, preferences, \nand desired features for managing shared expenses.  \n \no Surveys/Questionnaires  : \n \nWe distributed surveys and questionnaires to a broader audience to collect \nquantitative data on common expense -sharing practices, preferred payment \nmethods, and user expectations regarding expense management applications. The \nsurvey responses provided valu able insights into user behavior and requirements.  \n \no Observation  : \n \nWe observed real -world scenarios of group expenses and shared financial \nactivities to understand common challenges and behaviors among users. By \nobserving group interactions and expense -splitting practices firsthand, we gained \nvaluable insights into the co mplexities of managing shared expenses.  \n \no Document Analysis  : \n \nWe analyzed existing split expense applications, user reviews, and industry \nreports to identify common features, trends, and best practices in expense \nmanagement. This helped us understand the competitive landscape and \nbenchmark our application against exi sting solutions.  \n \no Brainstorming Sessions  : \n \nWe conducted brainstorming sessions with the development team and \nstakeholders to generate ideas, identify potential features, and prioritize \nrequirements based on user needs and business objectives. These sessions \n \n  Page | 25 \n fostered creativity and collaboration, leading to innovative solutions and feature \nprioritization.  \n \nBased on the insights gathered through these techniques, we identified the \nfollowing key requirements for the split expense :  \n \no User Registration and Authentication  \no Group Creation and Management  \no Adding and Editing Expenses  \no Expense Splitting Methods (Equal, Unequal, Percentage, Shares)  \no Real -time Updates on Balances and Settlements  \no Integration with Payment Gateways (e.g., Razorpay)  \no Notification and Reminder System  \no Expense Categorization and Reporting  \no User -friendly Interface and Navigation  \no Cross -platform Compatibility (iOS, Android, Web)  \n \nBy meticulously gathering and analyzing requirements through these methods, we \nensured that the split expense addresses the diverse needs of users and provides a \nseamless and intuitive experience for managing shared expenses effectively.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n  Page | 26 \n 4 \nProposed System  \n \n \n4.1  Scope  \n\u2022 Users can register and login to the application.  \n\u2022 Users can create and manage expense groups.  \n\u2022 Users can add expenses within groups and categorize them.  \n\u2022 The application supports various expense splitting methods (equal \nsplit, percentage split, etc.).  \n\u2022 Real -time synchronization of expense data across group members.  \n\u2022 Users receive notifications for new expenses and settlement requests.  \n\u2022 Integration with payment gateways for secure transactions.  \n\u2022 Users can settle expenses using preferred payment methods.  \n\u2022 The application offers tools for tracking spending patterns and \nanalyzing expenses.  \n\u2022 Users can manage their profiles and notification preferences.  \n\u2022 Administrators can manage users, groups, and expenses.  \n\u2022 Administrators can enforce rules, resolve disputes, and monitor \nactivity.  \n\u2022 The application implements security measures to protect user data \nand transactions.  \n\u2022 Develops applications for multiple platforms (e.g., iOS, Android, web).  \n\u2022 Ensures consistent user experience across devices.  \n \n \n \n \n \n  Page | 27 \n  \n4.2  Project Modules  \n \n\u2756 User Module :  \n \no User Authentication and Authorization  \no Group Management  \no Expense Management  \no Expense Splitting  \no Real -time Updates and Notifications  \no Payment Integration  \no Expense Analysis and Reporting  \no User Profile Management  \no Admin Panel  \no Feedback and Support  \no Security and Privacy  \no Cross -platform Compatibility  \n \n \n4.3  Module Wise Objectives  \n \n\u2756 User Module :  \n \no User Registration and Authentication  : \n\u2713 Handles registration and authentication for all users.  \n\u2713 Manages user roles and permissions.  \n \no Expense Group Management  : \n\u2713 Allows users to create and manage expense groups.  \n\u2713 Enables group admins to configure group settings and manage \nmembers.  \n \no Expense Tracking and Management  : \n\u2713 Facilitates adding, editing, and deleting expenses within groups.  \n\u2713 Supports categorization, descriptions, and attachment of receipts.  \n \no Expense Splitting Methods  : \n \n  Page | 28 \n \u2713 Implements various expense splitting methods (e.g., equal split, \npercentage split).  \no Real -time Updates and Notifications  : \n\u2713 Provides real -time synchronization of expense data.  \n\u2713 Sends notifications for new expenses, updates, and settlement requests.  \n \n \no Payment Integration  : \n\u2713 Integrates with payment gateways for secure transactions.  \n\u2713 Allows users to settle expenses using preferred payment methods.  \n \no Expense Analysis and Reporting  : \n\u2713 Offers tools for tracking spending patterns and analyzing expenses.  \n\u2713 Provides visualizations and reports for expense management.  \n \no User Profile Management  : \n\u2713 Enables users to manage their profiles and settings.  \n\u2713 Allows customization of notification preferences.  \n \no Admin Panel  : \n\u2713 Provides administrators with access to manage users, groups, and \nexpenses.  \n\u2713 Allows admins to enforce rules, resolve disputes, and monitor activity.  \n \no Feedback and Support  : \n\u2713 Includes features for users to provide feedback and support requests.  \n\u2713 Offers customer support channels for assistance and guidance.  \n \no Security and Privacy :  \n\u2713 Implements security measures to protect user data and transactions.  \n\u2713 Ensures compliance with data privacy regulations.  \n \no Cross -platform Compatibility  : \n\u2713 Develops applications for multiple platforms (e.g., iOS, Android, web).  \n\u2713 Ensures consistent user experience across devices.  \n \n \n \n \n \n  Page | 29 \n  \n \n4.4  Expected Advantage  \n \nSplit expense application offers several advantages to its users, enhancing the \nmanagement of shared expenses within groups. Here are some expected advantages of \nusing a split expense application:  \n \no Convenience and Efficiency  : \n\u2713 Simplifies the process of tracking and managing shared expenses \namong group members.  \n\u2713 Provides a centralized platform for adding, categorizing, and splitting \nexpenses, reducing the need for manual calculations and coordination.  \n \n \no Transparency and Accountability  : \n\u2713 Promotes transparency by providing real -time updates on expenses, \nbalances, and settlements within the group.  \n\u2713 Enhances accountability by clearly documenting each expense and its \ncontributors, reducing disputes and misunderstandings.  \n \no Fairness in Expense Distribution:  \n\u2713 Offers various expense splitting methods, allowing users to divide \nexpenses equitably based on their preferences and agreements.  \n\u2713 Ensures fairness in expense distribution by providing flexibility in \nchoosing splitting methods (equal split, percentage split, custom split, \netc.).  \n \no Cost Sharing and Budget Management  : \n\u2713 Facilitates cost -sharing arrangements among group members for \nshared expenses such as rent, utilities, groceries, and travel expenses.  \n\u2713 Helps users effectively manage their budgets by tracking spending, \nsetting limits, and analyzing expense patterns over time.  \n \no Streamlined Payment Settlements  : \n\u2713 Integrates with payment gateways to facilitate seamless and secure \ntransactions for settling shared expenses.  \n \n  Page | 30 \n \u2713 Enables users to settle their dues directly within the application, \neliminating the need for manual transfers or cash exchanges.  \n \no Enhanced Communication and Collaboration  : \n\u2713 Improves communication and collaboration among group members by \nproviding features for sharing expense details, discussing transactions, \nand resolving discrepancies.  \n\u2713 Enables users to stay informed about group expenses, contributions, \nand settlements through real -time notifications and updates.  \n \no Time and Effort Savings  : \n\u2713 Saves time and effort by automating repetitive tasks such as expense \ntracking, splitting, and settlement.  \n\u2713 Reduces the administrative burden associated with managing shared \nexpenses, allowing users to focus on other priorities and activities.  \n \no Data Analysis and Insights:  \n\u2713 Offers analytical tools and reports to analyze spending patterns, \nidentify trends, and make informed financial decisions.  \n\u2713 Provides valuable insights into group expenses, helping users optimize \ntheir spending habits and budget allocations.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  Page | 31 \n  \n5 \nDetail Planning  \n \n5.1  Data Flow Diagram  \n \nA Data Flow Diagram (DFD) is a graphical representation of the \u201cflow\u201d of  data \nthorough an information system. A data flow diagram can also be used for the  \nvisualization of data processing (structure design). It is common practice for a designer  \nto draw a context level DFD first which shows the interaction between the system and  \noutside entities. This context -level DFD id then \u201cexploded\u201d to show more detail of the  \nsystem being modelled.  \n \n \n\u2756 Modules Used in Data Flow Diagram : - \n \n \n \n \n \n \n \n \n \n \n \n  \n\n \n  Page | 32 \n  \n \n \n \n\u2756 Context Level of Split Expense Management  :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n\n \n  Page | 33 \n  \n \n\u2756 1st Level of Split Expense Management  :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n  Page | 34 \n  \n \n\u2756 2st Level of Split Expense Management  :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n  Page | 35 \n   \n \n\u2756 2st Level of Group Management  :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n  Page | 36 \n 5.2  Process Specification / Activity Flow Diagram  \n \n\u2756 Login :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\u2756 User Profile  :  \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n  Page | 37 \n \u2756 Group Creation :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\u2756 Expense Creation :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n  Page | 38 \n  \n\u2756 Expense Tracking :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\u2756 Settle Expense :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n  Page | 39 \n  \n \n5.3  Data Dictionary  \n \n\u27a2 A data dictionary is a catalogue, a repository of the element system. As the \nname  suggest it is used to know requirement and needs of organization, \nThus data  dictionary gives the detailed description of the database store . \n\u27a2 Data dictionary used to store data like alias, how used/ where used, and \nvalues.  \n\u27a2 Data dictionary store data into table form.  \n\u27a2 All data stores in table form make it easy to understand our database.  \n \n \n \nUsers  \nAlias  :  User  \nWhere used? /  \nHow used?  To store and retrieve user details  \nDescription :  id,name,email,mobileNo,gender,countryCode,currencyCode,  \nprofilePicture,avatarId,fcmToken,notification  \nSupplementary  \ninformation  Id must be unique and login process verify data  \nin this table.  \n \n \n \n \nGroup  \nAlias  :  Group  \nWhere used? /  \nHow used?  To store and retrieve group  details  \nDescription :  id,name,description,budget,groupProfile,memberIds,  \nadminIds,createdAt,lastUpdated  \n \nSupplementary  \ninformation  Id must be unique and user can send message and \nexpense.  \n \n \n  Page | 40 \n  \n \n \n \n \n \n \nExpense  \nAlias  :  Expense  \nWhere used? /  \nHow used?  To store and retrieve expense  details  \nDescription :  id,title,amount, payerID,behalfAddUser,createdAt,groupId,  \ntripId,splitMode,percentage,equality,expenseType  \n \nSupplementary  \ninformation  Id must be unique and user can add expense.  \n \n \n \n \nMessage  \nAlias  :  Message  \nWhere used? /  \nHow used?  To send  and retrieve message  details  \nDescription :  messageId,sender,message,image,createdTime,expenseId,  \nmsgType,  \n \nSupplementary  \ninformation  Send message in groups and retrive it.  \n \n \n \n \n \n \n \n  Page | 41 \n  \n \n \n \n5.4  Entity -Relationship Diagram / Class Diagram  \n \nAn entity relationship diagram (ERD), also known as an entity relationship  model, \nis a graphical representation that depicts relationships among people, objects,  places, \nconcepts or events within an information technology (IT) system. An ERD uses  data \nmodeling techniques that can help define business processes and serve as the  foundation \nfor a relational database.  \n \nEntity relationship diagrams provide a visual starting point for database  design \nthat can also be used to help determine information system requirements  throughout an \norganization. After a relational database is rolled out, an ERD can still  serve as a reference \npoint, should any debugging or business process re -engineering be  needed later.  \n \nHowever, while an ERD can be useful for organizing data that can be  represented \nby a relational structure, it can't sufficiently represent semi -structured or  unstructured \ndata. It's also unlikely to be helpful on its own in integrating data into a  pre-existing \ninformation system.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  Page | 42 \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n  Page | 43 \n  \n6 \nSystem Design  \n \n \n6.1  Database Design  \n \n\u2756 User :  \n \nField Name  Data Type  Required  Description  \nid String  True  Id of User  \nname  String  True  Name of User  \nemail  String  True  Email of User  \nmobileNo  String  True  Mobile No. of User  \ngender  String  True  Gender of User  \ncurrencyCode  String  True  User Currency Code  \ncountryCode  Int True  User Country Code  \nprofilePicture  String  True  User Profile  \navatarId  String  True  User Avatar  \ncreatedAt  DateTime  True  Created Time  \nfcmToken  String  True  FCM Token  \nnotification  Bool  True  Notification Enable  \n \n \n \n \n  Page | 44 \n \u2756 Group  :  \n \nField Name  Data Type  Required  Description  \nid String  True  Id of Group  \nname  String  True  Name of Group  \ndescription  String  True  Description  of Group  \nbudget  String  True  Budget of Group  \ngroupProfile  String  True  Profile of Group  \nmemberIds  List<Object>  True  Group members  \nadminIds  List<Object>  True  Group Admin  \ncreatedAt  DateTime  True  Created Time  \nlastUpdated  DateTime  True  Last Update Time  \n \n \n\u2756 Expense  :  \n \nField Name  Data Type  Required  Description  \nexpenseI d String  True  Id of Expense  \ntitle  String  True  Title  of Expense  \namount  Double  True  Expense amount  \npayerId  Object  True  Expense Payer User  \nBehalfAddUser  Object  True  Expense Behalf User  \ncreatedAt  DateTime  True  Created Time  \nexpenseAt  DateTime  True  Expense Time  \ngroupId  String  True  Group Id  \ntripId  String  True  Trip Id  \nsplitMode  String  True  Split Mode  \npercentage  Double  True  Percentage Data  \nexpenseType  String  True  Expense Type  \nequality  List<Object>  True  Equality Data  \n \n  Page | 45 \n  \n\u2756 ChatRoom  :  \n \nField Name  Data Type  Required  Description  \ngroupId  String  True  Id of Group  \nchatroomTitle  String  True  Chat title  \nmemberIds  List<Object>  True  Member  of Group  \nisGroup  Bool  True  Group or Not  \nlastMessage  String  True  Last Message  \n \n\u2756 Message  :  \n \nField Name  Data Type  Required  Description  \nmessageId  String  True  Id of Message  \nsender  String  True  Sender User  \nmessage  String  True  Message  \nimage  String  True  Image  \nisSeen  Bool  True  Message seen or not  \ncreatedTime  DateTime  True  Created Time  \nexpenseId  String  True  Expense Id  \nmsgType  String  True  Message Type  \n \n\u2756 Group Member  :  \n \nField Name  Data Type  Required  Description  \nuser  object  True  User of Group  \nstatus  String  True  User Status  \ndebitAmount  Double  True  Debit Amount  \ncreditAmount  Double  True  Credit Amount  \n \n  Page | 46 \n  \n \n\u2756 Contact  Data :  \n \nField Name  Data Type  Required  Description  \nid String  True  Id of Contact  \nname  String  True  Contact Name  \nnumber  String  True  Contact Number  \nemail  String  True  Contact Email  \nhobbies  String  True  Hobbbies  \nbirthDate  String  True  User Bdate  \nimagePath  String  True  User Image  \nrelationShip  String  True  Relationship  \n \n \n \n\u2756 Notification Model :  \n \nField Name  Data Type  Required  Description  \nid String  True  Id of Notification  \ntitle  String  True  Title of Notification  \npayerId  String  True  Payer  \ncreatedAt  String  True  Created Time  \ngroupId  String  True  Group Id  \ntripId  String  True  Trip Id  \ntype  String  True  Type  \ndescription  String  True  Description  \nsenderId  String  True  Sender Id  \ncustomerId  List True  Customer Id  \n \n \n  Page | 47 \n  \n \n\u2756 Equality Data :  \n \nField Name  Data Type  Required  Description  \nuserId  String  True  Id of User  \nuserName  String  True  User Name  \npaymentAt  DateTime  True  Payment At  \nstatus  String  True  Status  \npercentage  Double  True  Percentage  \namount  Double  True  Amount  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  Page | 48 \n  \n6.2  Directory Structure  \n \n\u2756 Controllers :  \nThat perform all the funtionality related operations.  \n \nController  \n| \n|-- auth_controller.dart  \n| \n|-- user_controller.dart  \n| \n|-- home_controller.dart  \n| \n|-- intro_controller.dart  \n| \n|-- splash_controller.dart  \n| \n|-- group_controller.dart  \n| \n|-- expense_controller.dart  \n| \n|-- expense_history_controller.dart  \n| \n|-- network_controller.dart  \n| \n|-- otp_verify_controller.dart  \n| \n|-- user_repository_controller.dart  \n| \n|-- pick_image_controller.dart  \n| \n|-- notification_history_controller.dart  \n \n  Page | 49 \n  \n \n \n\u2756 Model :  \n \nThat contain all the object of Data.  \n \nModel  \n| \n|-- user_model.dart  \n| \n|-- intro_model.dart  \n| \n|-- user_contact_model.dart  \n| \n|-- notification_data.dart  \n| \n|-- message_model.dart  \n| \n|-- expense_data.dart  \n| \n|-- chat_room.dart  \n| \n|-- group_members .dart  \n| \n|-- group_data .dart  \n \n \n \n \n \n \n \n  Page | 50 \n  \n \n\u2756 Screen :  \n \nThat contain all the view of all the screen.  \n \nScreen  \n| \n|-- add_contact_screen.dart  \n| \n|-- add_expense_form.dart  \n| \n|-- add_expense_screen.dart  \n| \n|-- add_member_screen.dart  \n| \n|-- contact_us.dart  \n| \n|-- country_pick_screen.dart  \n| \n|-- create_new_group.dart  \n| \n|-- dashboard.dart  \n| \n|-- expense_details.dart  \n| \n|-- group_details.dart  \n| \n|-- group_expense_history.dart  \n| \n|-- group_screen.dart  \n| \n|-- group_setting.dart  \n \n  Page | 51 \n | \n|-- history_screen.dart  \n| \n|-- home_screen.dart  \n| \n|-- image_preview_screen.dart  \n| \n|-- intro_screen.dart  \n| \n|-- notification_screen.dart  \n| \n|-- otp_verify.dart  \n| \n|-- pdf_viewer_screen.dart  \n| \n|-- phone_login_screen.dart  \n| \n|-- privacy_policy.dart  \n| \n|-- profile_screen.dart  \n| \n|-- record_payment_screen.dart  \n| \n|-- settle_up_screen.dart  \n| \n|-- splash_screen.dart  \n| \n|-- split_screen.dart  \n| \n|-- total_screen.dart  \n| \n|-- view_all_groups.dart  \n| \n|-- view_split_screen.dart  \n \n  Page | 52 \n  \n\u2756 Theme :  \n \nTheme  \n| \n|-- colors.dart  \n| \n|-- colors_theme.dart  \n \n \n\u2756 Utils :  \n \nUtils  \n| \n|-- app_font.dart  \n| \n|-- app_storage.dart  \n| \n|-- assets.dart  \n| \n|-- controller_ids.dart  \n| \n|-- extensions.dart  \n| \n|-- firestore_timestamp_extenstions .dart  \n| \n|-- network_dependency .dart  \n| \n|-- strings .dart  \n| \n|-- utils .dart  \n \n \n \n  Page | 53 \n  \n\u2756 Utils :  \n \nUtils  \n| \n|-- app_dialogue.dart  \n| \n|-- chat_message_content.dart  \n| \n|-- connectivity_widget.dart  \n| \n|-- custom_loading_widget.dart  \n| \n|-- shimmer_widget.dart  \n| \n|-- user_profile_widget.dart  \n| \n|-- custom_group_avatar_widget.dart  \n| \n|-- horizontal_avatar_widget.dart  \n| \n|-- User  \n | \n|-- my_name_text_widget.dart  \n| \n|-- my_number_text_widget.dart  \n| \n|-- my_profile_widget.dart  \n| \n|-- other_profile_widget.dart  \n \n \n \n \n  Page | 54 \n  \n \n \n6.3  Input Layouts  \n \n\u2756 Intro Screen :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n\n \n  Page | 55 \n  \n\u2756 Country Select Screen :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n \n \n\n \n  Page | 56 \n  \n \n\u2756 Phone Login & OTP Screen :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n\n \n  Page | 57 \n  \n\u2756 Home Screen :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n \n \n \n \n\n \n  Page | 58 \n  \n\u2756 Group Screen :   \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n  Page | 59 \n  \n \n\u2756 History Screen :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n \n\n \n  Page | 60 \n  \n\u2756 Profile  Screen :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n \n\n \n  Page | 61 \n  \n\u2756 Create Group  :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n  Page | 62 \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n\n \n  Page | 63 \n  \n\u2756 Add Expense Screen  :  \n  \n\n \n  Page | 64 \n  \n \n\u2756 Split Expense Eqaully and  Amount Wise : \n \n  \n  \n\n \n  Page | 65 \n  \n \n\u2756 Split Expense Percentage and Share Wise : \n \n  \n\n \n  Page | 66 \n  \n \n\u2756 Chat Screen  :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n  \n \n\n \n  Page | 67 \n  \n \n\u2756 Group Expense  :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n\n \n  Page | 68 \n  \n \n\u2756 Delete Expense  :      Leave Group  :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n\n \n  Page | 69 \n  \n \n\u2756 View Split Screen  :      Share Split Image  :  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n \n\n \n  Page | 70 \n  \n \n\u2756 Settle Up Screen  :      Payment Screen :   \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n\n \n  Page | 71 \n  \n \n\u2756 Payment By  :      Payment Success :   \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n\n \n  Page | 72 \n  \n \n\u2756 Search Expense  :     Search Group :  \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n\n \n  Page | 73 \n  \n \n\u2756 Edit Group  :      Save Name Dialogue :  \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n  Page | 74 \n  \n \n\u2756 Log Out Dialogue  :    Delete Account Dialogue :   \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n\n \n  Page | 75 \n 7 \nSoftware Testing  \n \n \n Testing is the process of detecting errors. Testing performs a very \ncritical role for  the quality assurance and for ensuring the reliability of software. The \nresults of testing  are used later on during maintenance also.  \n \n Software testing is a critical element of software quality \nassurances and represents  the ultimate review of specification, design and coding. Testing \nis an exposure of a  system to trial input to see whether it produces correct output. Testing \ncannot be  determined whether software meets user\u2019s needs, only whether it appears to \nconfirm to  requirements. Testing can show that a system is free of errors, only that it \ncontains  error. Testing finds errors, it does not correct errors. Software success is a quality  \nproduct, on time and within cost. Though testing can reveal critical (costly) mistakes.  \nTesting should therefore,  \n \n\u27a2 Validate Performance  \n\u27a2 Detect Errors  \n\u27a2 Identify Inconsistencies  \n \n \n\u2756 What is Testing ?  \n \n\u27a2 Testing is the process of examining an application to ensure it fulfils the  \nrequirements for which it was designed and meets quality expectations.  \n\u27a2 More importantly, testing ensure the application meet customer expectations.  \n\u27a2 Testing accomplished a verity of things but most importantly it measures the  \nquality of websites you are developing.  \n\u27a2 This view presupposes there are defect in your website waiting to be  discovered \nand this view is rarely disproved or even disputed.  \n \n \n \n  Page | 76 \n \u2756 Testing Principles  \n \n\u27a2 All the test should meet the customer requirements  \n\u27a2 To make our software testing should be performed by a third party.  \n\u27a2 Exhaustive testing is not possible. As we need the optimal amount of testing  based \non the risk assessment of the application.  \n\u27a2 All the test to be conducted should be planned before implementing it.  \n\u27a2 It follows the Pareto rule(80/20 rule) which states that 80% of errors come  from \n20% of program components.  \n\u27a2 Start testing with small parts and extend it to large parts.  \n \n\u2756 Strategy of Testing  \n \n\u27a2 Unit Testing :  \n It focuses on smallest unit of software design. In this we test an  \nindividual unit or group of inter related units. It is often done by programmer  by \nusing sample input and observing its corresponding outputs.  \n \n \n\u27a2 Integration Testing  :  \n The objective is to take unit tested components and build a  \nprogram  structure that has been dictated by design. Integration testing is testing \nin which a group of components are combined to produce output.  Integration \ntesting is of four types:  \n(i) Top down  \n(ii) Bottom up  \n(iii) Sandwich  \n(iv) Big-Bang.  \n \n\u27a2 Regression  Testing :  \n Every time new module is added leads to changes in program. This  \ntype of testing makes sure that whole component works properly even after  \nadding components to the complete program.  \n \n\u27a2 Alpha  Testing :  \n This is a type of validation testing. It is a type of acceptance testing  \nwhich is done before the product is released to customers. It is typically done  by \nQA people.  \n  \n \n  Page | 77 \n \u27a2 Beta  Testing :  \n The beta test is conducted at one or more customer sites by the  \nenduser of the software. This version is released for the limited number of users  \nfor testing in real time environment . \n \n\u27a2 System  Testing :  \n In this software is tested such that it works fine for different  \noperating system. It is covered under the black box testing technique. In this  we \njust focus on required input and output without focusing on internal  working. In \nthis we have security testing, recovery testing, stress testing and  performance \ntesting.  \n \n\u27a2 Performance  Testing :  \n It is designed to test the run -time performance of software within  \nthe context of an integrated system. It is used to test speed and effectiveness  of \nprogram.  \n \n \n\u2756 Purpose of Testing  \n \n\u27a2 Identify defects or bugs in the software.  \n\u27a2 Ensure the software meets functional and non -functional requirements.  \n\u27a2 Validate that the software performs as expected under various conditions.  \n\u27a2 Enhance the quality, reliability, and usability of the software.  \n\u27a2 Verify compliance with regulatory standards and industry best practices.  \n \n \n\u2756 Software Testing Process  \n \n\u27a2 Test Planning:  \nDefine test objectives, scope, resources, and timelines. Develop test plans and test \ncases . \n \n\u27a2 Test Execution:  \nExecute test cases, record results, and identify defects. Conduct exploratory testing \nto uncover additional issues.  \n \n \n \n  Page | 78 \n  \n\u27a2 Defect Management:  \nDocument and prioritize defects. Assign defects for resolution, re -test fixes, and \nverify closure.  \n \n\u27a2 Test Reporting:  \nGenerate test reports to communicate test results, defect metrics, and overall \nsoftware quality to stakeholders.  \n \n\u27a2 Test Closure:  \nEvaluate test completion criteria, finalize test documentation, and archive test \nartifacts.  \n \n\u2756 Software Testing Technique  \n \n\u27a2 Equivalence Partitioning:  \nDivides input data into equivalent classes to reduce test cases.  \n \n\u27a2 Boundary Value Analysis:  \nTests input values at the boundaries of equivalence partitions.  \n \n\u27a2 Decision Table Testing:  \nMaps combinations of inputs to corresponding actions or outcomes.  \n \n\u27a2 State Transition Testing:  \nTests transitions between different states of a system.  \n \n\u27a2 Pairwise Testing:  \nTests all possible combinations of input parameters with a reduced number of test \ncases.  \n \n\u2756 Software Testing Technique  \n \n\u27a2 Test Management Tools:  \nManage test plans, test cases, and test execution.  \n \n\u27a2 Automation Testing Tools:  \nExecute automated test scripts and generate test reports.  \n \n\u27a2 Load Testing Tools:  \nSimulate user load and measure system performance under load conditions.  \n \n\u27a2 Defect Tracking Tools:  \n \n  Page | 79 \n Capture, track, and manage defects throughout the testing process.  \n \n\u2756 Best Practices in Software Testing  \n \n\u27a2 Early Testing:  \nBegin testing activities as early as possible in the SDLC to detect defects sooner.  \n \n\u27a2 Test Automation:  \nAutomate repetitive and time -consuming test cases to improve efficiency and \nreliability.  \n \n\u27a2 Continuous Integration:  \nIntegrate testing into the development process to identify defects early and ensure \ncode quality.  \n \n\u27a2 Traceability:  \nEstablish traceability between requirements, test cases, and defects to ensure \ncomprehensive test coverage.  \n \n\u27a2 Test Environment Management:  \nMaintain stable and consistent test environments to minimize environmental \nissues during testing.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  Page | 80 \n  \n \n8 \nLimitations and Future Scope of \nEnhancements References  \n \n \n \n\u2756 Limitation :  \n \n \n\u27a2 Dependency on User Input  : \n \no Users may forget to enter certain expenses or provide inaccurate information, \nleading to discrepancies in expense calculations.  \no Inaccurate expense data can result in incorrect splitting and may cause \ndisputes among group members.  \n \n\u27a2 Complex Expense Scenario :  \n \no Handling complex scenarios, such as shared expenses involving multiple \ncurrencies, uneven contributions, or reimbursements, can be challenging.  \no Current implementations may struggle to accurately split expenses in such \nscenarios, leading to manual intervention and potential errors.  \n \n\u27a2 Limited Payment Integration :  \n \no Integrating with a limited number of payment gateways may restrict users' \nability to settle expenses conveniently.  \no Users may face challenges in settling expenses if their preferred payment \nmethod is not supported by the application.  \n \n \n \n  Page | 81 \n \u27a2 Security Concerns :  \n \no Storing sensitive financial data within the application requires robust security \nmeasures to prevent unauthorized access and data breaches.  \no Inadequate security measures can compromise user privacy and expose them \nto risks such as identity theft or fraud.  \n \n\u27a2 Platform Dependency :  \n \no Developing separate applications for different platforms (e.g., iOS, Android, \nweb) may result in inconsistencies in user experience and functionality.  \no Users may experience differences in features, performance, or usability when \naccessing the application across different devices or platforms.  \n \n \n \n\u2756 Future Enhancement  : \n \n\u27a2 Enhanced Expense Splitting Algorithms  : \n \no Develop advanced algorithms that can handle complex expense scenarios \nmore effectively, such as machine learning algorithms that analyze spending \npatterns to suggest optimal expense distributions.  \n \n\u27a2 Integration with Financial Management Tools  : \n \no Integrate the split expense application with popular financial management \nplatforms such as Mint or Personal Capital to provide users with \ncomprehensive financial insights and budgeting tools.  \n \n\u27a2 Expanded Payment Options  : \n \no Partner with additional payment gateways to offer users a wider range of \npayment options, including digital wallets, peer -to-peer payment platforms, \nand international payment methods.  \n \n \n \n \n  Page | 82 \n \u27a2 Enhanced User Experience  : \n \no Conduct user research and usability testing to identify pain points and areas \nfor improvement in the user interface and user experience. Implement user -\ncentric design principles to enhance usability and accessibility.  \n \n\u27a2 Automated Expense Tracking  : \n \no Develop features for automatic expense tracking, such as OCR -based receipt \nscanning or integration with banking APIs to import transaction data, reducing \nthe manual effort required from users.  \n \n\u27a2 Real -time Expense Notifications  : \n \no Implement push notifications or in -app alerts to notify users of new expenses, \npending settlement requests, or significant changes in group balances, \nensuring timely communication and action.  \n \n\u27a2 AI-driven Insights  : \n \no Leverage AI and ML algorithms to analyze expense data and provide \npersonalized insights, such as spending trends, budgeting recommendations, \nor predictive analytics to help users make informed financial decisions.  \n \n\u27a2 Multi -platform Support  : \n \no Develop a responsive web application or progressive web app (PWA) that \noffers consistent functionality and user experience across different devices and \nplatforms, eliminating the need for separate native applications.  \n \n \n \n \n \n \n \n \n \n  Page | 83 \n  \n \n\u2756 References  : \n \no Splitwise - Expense Splitter  \no Settle Up  \no Tricount  \no SplitBill  \no Expense Splitter  \n \n \n \n \n \n \n \n \n \nTHANK YOU  \n",
+    "result": {
+      "ai_probability": 58.4,
+      "is_ai_generated": true,
+      "confidence": 85.81585179620319,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 86.0,
+        "structure_score": 50.0,
+        "style_score": 30.0
+      }
+    },
+    "id": 28,
+    "date": "2025-04-18T12:55:54.408822"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Human-Written Text :\n\n- Uses personal pronouns (I, we, my)\n- Contains emotional content\n- Has varied sentence structure\n- Uses informal language\n- Includes specific personal details\n- Has natural flow and conversational tone\n\n-------------------------------------\nI remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n\n---------------------------------------------------------------------------------------------\n\nAI-Generated Text :\n\n- Uses formal academic language\n- Contains complex vocabulary\n- Has consistent sentence structure\n- Uses technical terms\n- Maintains neutral tone\n- Has more structured flow\n\n-----------------------------------------\nThe increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n\n\n-------------------------------------------------------------------------------------------------\n\nText Similarity Analysis : \n\nArtificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n-------------------------------\n\nThe impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 68.7,
+      "is_ai_generated": true,
+      "confidence": 99.03774955135063,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 66.7,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 29,
+    "date": "2025-04-20T22:43:03.595132"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Kevin",
+    "text2": "Savaliya",
+    "result": {
+      "cosine_similarity": 0.0,
+      "jaccard_similarity": 0.0,
+      "tfidf_similarity": 0.0,
+      "average_similarity": 0.0
+    },
+    "id": 30,
+    "date": "2025-04-20T22:45:08.858655"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "cosine_similarity": 0.38689628839518114,
+      "jaccard_similarity": 0.19318181818181818,
+      "tfidf_similarity": 0.959166304662544,
+      "average_similarity": 0.5130814704131811
+    },
+    "id": 31,
+    "date": "2025-04-20T22:45:32.082447"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Human-Written Text :\n\n- Uses personal pronouns (I, we, my)\n- Contains emotional content\n- Has varied sentence structure\n- Uses informal language\n- Includes specific personal details\n- Has natural flow and conversational tone\n\n-------------------------------------\nI remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n\n---------------------------------------------------------------------------------------------\n\nAI-Generated Text :\n\n- Uses formal academic language\n- Contains complex vocabulary\n- Has consistent sentence structure\n- Uses technical terms\n- Maintains neutral tone\n- Has more structured flow\n\n-----------------------------------------\nThe increasing reliance on technology has transformed traditional industries and redefined how humans approach problem-solving. Innovations such as artificial intelligence and machine learning are driving progress in automation, data analysis, and decision-making processes across sectors. These advancements have led to significant improvements in efficiency, productivity, and accuracy, while simultaneously raising important questions about the future of human workforce participation and ethical considerations in technological implementation.\n\n\n-------------------------------------------------------------------------------------------------\n\nText Similarity Analysis : \n\nArtificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n-------------------------------\n\nThe impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 68.7,
+      "is_ai_generated": true,
+      "confidence": 99.03774955135063,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 66.7,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 32,
+    "date": "2025-04-21T11:50:53.653290"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "cosine_similarity": 0.38689628839518114,
+      "jaccard_similarity": 0.19318181818181818,
+      "tfidf_similarity": 0.9591663046625439,
+      "average_similarity": 0.5130814704131811
+    },
+    "id": 33,
+    "date": "2025-04-21T11:52:21.342769"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "text2": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "cosine_similarity": 1.0,
+      "jaccard_similarity": 1.0,
+      "tfidf_similarity": 1.0,
+      "average_similarity": 1.0
+    },
+    "id": 34,
+    "date": "2025-04-21T11:54:04.925816"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "text2": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "result": {
+      "cosine_similarity": 0.38689628839518114,
+      "jaccard_similarity": 0.19318181818181818,
+      "tfidf_similarity": 0.959166304662544,
+      "average_similarity": 0.5130814704131811
+    },
+    "id": 35,
+    "date": "2025-04-21T15:06:47.373831"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "text2": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. \n",
+    "result": {
+      "cosine_similarity": 0.34861208039258895,
+      "jaccard_similarity": 0.189873417721519,
+      "tfidf_similarity": 0.8846517369293827,
+      "average_similarity": 0.47437907834783016
+    },
+    "id": 36,
+    "date": "2025-04-21T15:07:16.203319"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "text2": "machine learning",
+    "result": {
+      "cosine_similarity": 0.17960530202677488,
+      "jaccard_similarity": 0.037037037037037035,
+      "tfidf_similarity": 1.0,
+      "average_similarity": 0.405547446354604
+    },
+    "id": 37,
+    "date": "2025-04-21T15:07:32.939898"
+  },
+  {
+    "type": "ai_detection",
+    "text": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "result": {
+      "ai_probability": 62.0,
+      "is_ai_generated": true,
+      "confidence": 94.22649730810375,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 50.0,
+        "structure_score": 70.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 38,
+    "date": "2025-04-21T15:08:06.653549"
+  },
+  {
+    "type": "ai_detection",
+    "text": "I remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n",
+    "result": {
+      "ai_probability": 36.0,
+      "is_ai_generated": false,
+      "confidence": 81.97224362268005,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 0.0,
+        "structure_score": 50.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 39,
+    "date": "2025-04-21T15:08:47.204691"
+  },
+  {
+    "type": "ai_detection",
+    "text": "I remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n",
+    "result": {
+      "ai_probability": 36.0,
+      "is_ai_generated": false,
+      "confidence": 81.97224362268005,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 0.0,
+        "structure_score": 50.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 40,
+    "date": "2025-04-21T15:10:16.747136"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n\n",
+    "text2": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "cosine_similarity": 0.38689628839518114,
+      "jaccard_similarity": 0.19318181818181818,
+      "tfidf_similarity": 0.959166304662544,
+      "average_similarity": 0.5130814704131811
+    },
+    "id": 41,
+    "date": "2025-04-21T15:10:46.213833"
+  },
+  {
+    "type": "ai_detection",
+    "text": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "ai_probability": 56.0,
+      "is_ai_generated": true,
+      "confidence": 94.22649730810375,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 50.0,
+        "structure_score": 50.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 42,
+    "date": "2025-04-21T15:11:33.481341"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "result": {
+      "cosine_similarity": 1.0,
+      "jaccard_similarity": 1.0,
+      "tfidf_similarity": 1.0000000000000002,
+      "average_similarity": 1.0
+    },
+    "id": 43,
+    "date": "2025-04-21T15:26:33.837011"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "Kevin ",
+    "result": {
+      "cosine_similarity": 0.0,
+      "jaccard_similarity": 0.0,
+      "tfidf_similarity": 0.0,
+      "average_similarity": 0.0
+    },
+    "id": 44,
+    "date": "2025-04-21T15:26:41.406639"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "Healthcare\n",
+    "result": {
+      "cosine_similarity": 0.0,
+      "jaccard_similarity": 0.0,
+      "tfidf_similarity": 0.0,
+      "average_similarity": 0.0
+    },
+    "id": 45,
+    "date": "2025-04-21T15:26:51.859673"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "Healthcare discovery\n",
+    "result": {
+      "cosine_similarity": 0.0,
+      "jaccard_similarity": 0.0,
+      "tfidf_similarity": 0.0,
+      "average_similarity": 0.0
+    },
+    "id": 46,
+    "date": "2025-04-21T15:27:01.346952"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "we must carefully consider its ethical implications and ensure responsible development.",
+    "result": {
+      "cosine_similarity": 0.37463432463267754,
+      "jaccard_similarity": 0.1568627450980392,
+      "tfidf_similarity": 1.0,
+      "average_similarity": 0.5104990232435722
+    },
+    "id": 47,
+    "date": "2025-04-21T15:27:09.149190"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "we must carefully consider its ethical implications and ensure responsible development.",
+    "result": {
+      "cosine_similarity": 0.37463432463267754,
+      "jaccard_similarity": 0.1568627450980392,
+      "tfidf_similarity": 1.0,
+      "average_similarity": 0.5104990232435722
+    },
+    "id": 48,
+    "date": "2025-04-21T15:53:06.179997"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "cosine_similarity": 0.38689628839518114,
+      "jaccard_similarity": 0.19318181818181818,
+      "tfidf_similarity": 0.9591663046625439,
+      "average_similarity": 0.5130814704131811
+    },
+    "id": 49,
+    "date": "2025-04-25T11:32:52.645468"
+  },
+  {
+    "type": "ai_detection",
+    "text": "I remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n",
+    "result": {
+      "ai_probability": 36.0,
+      "is_ai_generated": false,
+      "confidence": 81.97224362268005,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 0.0,
+        "structure_score": 50.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 50,
+    "date": "2025-04-25T11:37:52.074230"
+  },
+  {
+    "type": "similarity_analysis",
+    "text1": "Artificial Intelligence has revolutionized the way we live and work in the 21st century. From virtual assistants like Siri and Alexa to advanced machine learning algorithms that power recommendation systems, AI has become an integral part of our daily lives. The technology has made significant strides in healthcare, where it assists in disease diagnosis and drug discovery, and in education, where it provides personalized learning experiences. However, as AI continues to evolve, we must carefully consider its ethical implications and ensure responsible development.\n",
+    "text2": "The impact of Artificial Intelligence on modern society cannot be overstated. AI technologies have transformed various sectors, including healthcare, education, and personal computing. Virtual assistants and machine learning algorithms have become commonplace, helping us with daily tasks and providing personalized recommendations. While AI has shown remarkable potential in medical diagnosis and educational tools, it's crucial to address the ethical challenges and ensure that its development benefits humanity as a whole. The future of AI depends on striking the right balance between innovation and responsibility.",
+    "result": {
+      "cosine_similarity": 0.6818463578696771,
+      "jaccard_similarity": 0.2413793103448276,
+      "tfidf_similarity": 0.9740259740259741,
+      "average_similarity": 0.6324172140801596
+    },
+    "id": 51,
+    "date": "2025-06-30T14:22:48.597346"
+  },
+  {
+    "type": "ai_detection",
+    "text": "I remember my first camping trip like it was yesterday. We forgot half our supplies, got lost twice, and my brother stepped in poison ivy. Mom was so mad she couldn't stop laughing! Despite the chaos, sitting around the campfire that night, making s'mores and telling scary stories under the stars, made all the mishaps worth it. I still can't eat a s'more without thinking about my dad's terrible ghost stories and my little sister's squeals of delight.\n",
+    "result": {
+      "ai_probability": 36.0,
+      "is_ai_generated": false,
+      "confidence": 81.97224362268005,
+      "message": "Uncertain - could be either human or AI",
+      "details": {
+        "pattern_score": 0.0,
+        "structure_score": 50.0,
+        "style_score": 70.0
+      }
+    },
+    "id": 52,
+    "date": "2025-06-30T14:24:40.128515"
+  }
+]
