@@ -4,7 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn app:app"  # Adjust 'app:app' to match your Flask app's module and instance name
+    startCommand: "gunicorn app.main:app"  # Adjust 'app:app' to match your Flask app's module and instance name
     envVars:
       - key: PYTHON_VERSION
         value: 3.12  # Or 3.11 if using older TensorFlow
