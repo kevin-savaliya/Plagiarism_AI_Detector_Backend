@@ -3,7 +3,7 @@ services:
     name: Plagiarism_AI_Detector_Backend
     env: python
     plan: free
-    buildCommand: "pip install -r requirements.txt"
+    buildCommand: "./build.sh && pip install -r requirements.txt"
     startCommand: "gunicorn app.main:app"  # Adjust 'app:app' to match your Flask app's module and instance name
     envVars:
       - key: PYTHON_VERSION
