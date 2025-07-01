@@ -21,7 +21,7 @@ app = Flask(__name__)
 # Configure CORS to allow requests from your frontend
 CORS(app, resources={
     r"/api/*": {
-        "origins": ["http://localhost:3000", "http://127.0.0.1:3000", "https://plagiarism-ai-detector-frontend-164h2zfle.vercel.app", "https://*.vercel.app",],
+        "origins": ["http://localhost:3000", "http://127.0.0.1:3000", "https://plagiarism-ai-detector-frontend-164h2zfle.vercel.app", "https://plagiarism-ai-detector-frontend.vercel.app", "https://*.vercel.app",],
         "methods": ["GET", "POST", "OPTIONS"],
         "allow_headers": ["Content-Type"]
     }
