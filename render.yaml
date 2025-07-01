@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-flask-app
+    name: Plagiarism_AI_Detector_Backend
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
