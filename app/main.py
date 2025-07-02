@@ -10,6 +10,10 @@ import json
 from datetime import datetime
 import threading
 import time
+import nltk
+
+# Add custom NLTK data path
+nltk.data.path.insert(0, '/opt/render/nltk_data')
 
 # Configure detailed logging
 logging.basicConfig(level=logging.DEBUG)  # Changed to DEBUG for more detail
