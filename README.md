@@ -22,7 +22,7 @@ This project includes a **React.js frontend**, **Flask backend**, and integrates
 
     * <30% → Likely human-written
     * 30-70% → Uncertain (could be either human or AI)
-    * > 70% → Likely AI-generated
+    * >70% → Likely AI-generated
     * Confidence <50% → Low confidence in analysis.
 * Text analysis summary:
 
@@ -181,10 +181,4 @@ REACT_APP_API_URL=https://plagiarism-ai-detector-backend.onrender.com
 
 > ⭐️ **If you found this project helpful, please star the repository to support my work!**
 
-```
 
----
-
-✅ **You can directly copy-paste or download this file** from here to upload it in your GitHub project for clean professional documentation.
-
-```
