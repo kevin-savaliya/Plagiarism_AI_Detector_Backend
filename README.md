@@ -22,7 +22,7 @@ This project includes a **React.js frontend**, **Flask backend**, and integrates
 
     * <30% → Likely human-written
     * 30-70% → Uncertain (could be either human or AI)
-    * />70% → Likely AI-generated
+    * >70% → Likely AI-generated
     * Confidence <50% → Low confidence in analysis.
 * Text analysis summary:
 
